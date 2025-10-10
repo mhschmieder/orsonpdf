@@ -34,6 +34,7 @@ package com.orsonpdf;
 
 import com.orsonpdf.filter.Filter;
 import com.orsonpdf.util.Args;
+
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;

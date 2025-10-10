@@ -32,6 +32,8 @@
 
 package com.orsonpdf;
 
+import com.orsonpdf.util.Args;
+
 import java.awt.AlphaComposite;
 import java.awt.BasicStroke;
 import java.awt.Color;
@@ -50,7 +52,6 @@ import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
-import com.orsonpdf.util.Args;
 
 /**
  * A {@code Stream} that contains graphics for the PDF document that

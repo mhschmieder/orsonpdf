@@ -32,6 +32,15 @@
 
 package com.orsonpdf;
 
+import com.orsonpdf.Pattern.ShadingPattern;
+import com.orsonpdf.filter.FlateFilter;
+import com.orsonpdf.shading.AxialShading;
+import com.orsonpdf.shading.RadialShading;
+import com.orsonpdf.shading.Shading;
+import com.orsonpdf.util.Args;
+import com.orsonpdf.util.GradientPaintKey;
+import com.orsonpdf.util.RadialGradientPaintKey;
+
 import java.awt.Font;
 import java.awt.GradientPaint;
 import java.awt.Image;
@@ -43,14 +52,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import com.orsonpdf.Pattern.ShadingPattern;
-import com.orsonpdf.filter.FlateFilter;
-import com.orsonpdf.shading.AxialShading;
-import com.orsonpdf.shading.RadialShading;
-import com.orsonpdf.shading.Shading;
-import com.orsonpdf.util.Args;
-import com.orsonpdf.util.GradientPaintKey;
-import com.orsonpdf.util.RadialGradientPaintKey;
 
 /**
  * Represents a page in a {@link PDFDocument}.  Our objective is to be able

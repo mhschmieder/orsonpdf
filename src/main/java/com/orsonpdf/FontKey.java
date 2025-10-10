@@ -32,9 +32,10 @@
 
 package com.orsonpdf;
 
-import java.awt.Font;
 import com.orsonpdf.util.Args;
 import com.orsonpdf.util.ObjectUtils;
+
+import java.awt.Font;
 
 /**
  * A key to represent a Java2D font.  This is used to maintain a mapping 

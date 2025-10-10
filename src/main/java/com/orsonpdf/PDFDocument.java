@@ -32,6 +32,8 @@
 
 package com.orsonpdf;
 
+import com.orsonpdf.util.Args;
+
 import java.awt.geom.Rectangle2D;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
@@ -44,7 +46,6 @@ import java.util.Date;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import com.orsonpdf.util.Args;
 
 /**
  * Represents a PDF document.  The focus of this implementation is to
