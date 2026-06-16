@@ -8,3 +8,10 @@
 
 # macOS security breach vulnerability files #
 *.DS_Store
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+# IntelliJ
+.idea/
